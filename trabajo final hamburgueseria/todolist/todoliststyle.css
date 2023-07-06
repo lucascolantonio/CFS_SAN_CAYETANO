@@ -1,0 +1,106 @@
+.conteiner{
+    background-image: url(../imagenes/delivey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+body{
+    height: 700px;
+}
+
+#ConteinerLista{
+    width: 400px;
+    margin-top: 150px;
+    color: #412929;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+}
+#TitutloPedido{
+    margin-left: 35%;
+}
+
+#TomarPedido{
+    display: inline-block;
+  padding: 5px 7px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+#TomarPedido:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .EliminarPedido{
+    display: inline-block;
+  padding: 5px 7px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 15px;
+  ;
+}
+.EliminarPedido:active {
+    background-color: #ff0000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .EstadoDePedido {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  .PedidoNuevo{
+    background-color: #0004ff;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  .EnPreparacion{
+    background-image: url(../imagenes/moto.jpg);
+    background-size: 42px 42px;
+    color: rgb(0, 0, 0);
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+  .PedidoListo{
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  .NotaPedido{
+    background-color: #ebe1e1;
+    color: #000000;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #NotaPedido{
+    border: 0;
+    border-radius: 4px;
+  }
